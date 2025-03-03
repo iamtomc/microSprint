@@ -7,60 +7,67 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# MicroSprint - Your Mini-Deadline Productivity Partner
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**MicroSprint** is a SaaS application designed to empower individuals and teams to achieve their goals by breaking them down into manageable mini-deadlines. We leverage the power of focused, time-bound tasks to combat procrastination and boost productivity.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## What is Being Built?
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+MicroSprint provides a structured environment for:
 
-## Learning Laravel
+* **Goal Decomposition:** Breaking large projects into smaller, actionable tasks.
+* **Mini-Deadline Setting:** Assigning specific deadlines to each task for focused execution.
+* **Progress Tracking:** Visualizing progress and staying motivated through clear indicators.
+* **Productivity Enhancement:** Cultivating a consistent and effective workflow.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Full Feature List (Current)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* **User Authentication:** Secure registration and login.
+* **Project/Goal Creation:** Define your objectives with descriptions and overall deadlines.
+* **Hierarchical Task Management:** Break down projects into main tasks and sub-tasks.
+* **Manual Mini-Deadline Assignment:** Set specific dates and times for each task.
+* **Task Status Tracking:** Monitor task progress (to-do, in progress, completed).
+* **Basic Progress Visualization:** Clear visual indicators of task completion.
+* **Email Notifications:** Reminders for upcoming mini-deadlines.
+* **User Settings:** Basic customization of notification preferences.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Up and Coming Features
 
-## Laravel Sponsors
+* **Automated Mini-Deadline Scheduling:** Intelligent algorithm to suggest optimal deadlines.
+* **Reward System & Gamification:** Achievement badges and points for consistent progress.
+* **Advanced Progress Tracking:** "Streak" counter and visual calendar view.
+* **Detailed Reporting & Analytics:** Productivity insights and task completion analysis.
+* **Team Collaboration Features:** Shared project boards and task assignment.
+* **Calendar Integrations:** Seamless synchronization with popular calendar apps.
+* **AI-Powered Task Prioritization:** Intelligent task management based on dependencies and user habits.
+* **Focus Mode:** Timer and website blocker integrations.
+* **Mobile App versions:** IOS and Android apps.
+* **Web3 Integration:** Decentralized data storage, tokenization, and community governance.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Current Progress
 
-### Premium Partners
+* **Milestone 1 (Core Functionality MVP): Completed.**
+    * User authentication, project creation, task management, mini-deadline setting, basic notifications, and status tracking are fully functional.
+* **Milestone 2 (Enhanced User Experience and Progress Tracking): In Progress.**
+    * UI/UX improvements and enhanced progress visualization are actively being developed.
+    * "Streak" counter and visual calendar view are currently being implemented.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Getting Started
+
+1.  **Clone the repository:** `git clone [repository URL]`
+2.  **Install dependencies:** `composer install` and `npm install`
+3.  **Configure your environment:** Create a `.env` file and set up your database connection.
+4.  **Run migrations:** `php artisan migrate`
+5.  **Start the development server:** `php artisan serve` and `npm run dev`
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+We welcome contributions! Please feel free to submit pull requests or open issues to suggest improvements or report bugs.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[License information]
+
+## Contact
+
+Tom Collins, tomc@mafasc.org
